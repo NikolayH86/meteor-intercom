@@ -1,10 +1,10 @@
 Package.describe({
   summary: "Intercom.io basic integration (uses 'widget' snippet)",
   version: "1.2.4",
-  git: "https://github.com/percolatestudio/meteor-intercom.git",
+  git: "https://github.com/percolatestudio/meteor-intercom.git"
 });
 
-Package.onUse(function(api) {
+Package.on_use(function(api) {
   if (api.versionsFrom)
     api.versionsFrom('METEOR@0.9.3.1');
 
